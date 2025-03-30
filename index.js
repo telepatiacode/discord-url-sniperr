@@ -1,3 +1,6 @@
+// Telepatia64 tarafından kodlanıp yayılmıştır parayla satılan bir kod değildir
+// iyi kullanımlar.
+// bu kodu kullanıp bana baş etmeye kalkışmayın bu fast kodu yapan bundan daha hızlısınıda yapar bunu aklınıza sokun.
 const WebSocket=require('ws'),tls=require('tls'),extractJson=require('extract-json-string'),fs=require('fs');
 const config={token:"",serverid:""};
 let guilds={},lastSeq=null,hbInterval=null,mfaToken=null,mfaTokenLastChecked=0,lastMfaFileTime=0;
